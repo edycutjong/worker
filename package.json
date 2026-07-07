@@ -1,5 +1,5 @@
 {
-  "name": "dorahacks-croo-worker",
+  "name": "croo-worker",
   "version": "0.1.0",
   "description": "Research provider agent — produces a sourced research draft on any topic, on-chain",
   "type": "module",
