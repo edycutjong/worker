@@ -1,0 +1,44 @@
+{
+  "name": "dorahacks-croo-worker",
+  "version": "0.1.0",
+  "description": "Research provider agent — produces a sourced research draft on any topic, on-chain",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --silent --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "audit": "npm audit --audit-level=high || true",
+    "ci": "npm run audit && npm run lint && npm run typecheck && npm run test:coverage"
+  },
+  "keywords": [
+    "croo",
+    "agent",
+    "a2a",
+    "research",
+    "worker"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@edycutjong/croo-core": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^4.1.8",
+    "eslint": "^9.0.0",
+    "license-checker": "^25.0.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^4.1.8"
+  },
+  "overrides": {
+    "ws": "^8.21.0"
+  }
+}
