@@ -50,13 +50,15 @@ graph LR
 
 Real CAP research orders Worker fulfilled as a **provider**.
 
-**Total real CAP orders: _0_** · _last updated: 2026-06-__
+**Total real CAP orders: 3** · _last updated: 2026-07-07_ · each cell is `[pay tx]` · `[deliver tx]` on Base Mainnet.
 
-| # | Date | Counterparty (requester) | Amount (USDC) | Order ID | Tx (BaseScan) | Result |
-|---|------|--------------------------|---------------|----------|---------------|--------|
-| 1 | _2026-06-__ | _Maestro / external_ | _0.00_ | `_ord_…_` | [0x…](https://basescan.org/tx/0x…) | draft + N sources |
+| # | Date | Counterparty (requester) | USDC | Order ID | Tx (BaseScan) | Result |
+|---|------|--------------------------|------|----------|---------------|--------|
+| 1 | 2026-07-07 | Maestro (research) | 0.10 | `82878d87` | [pay](https://basescan.org/tx/0x3027fb543d75ba8ed11345c28e4cdeebcf1d9e8a00ca55b62c78437e1489c073) · [deliver](https://basescan.org/tx/0xd524336641fca544bd791bdbcdfd13500129efd1b8e93028446aff749aef2346) | sourced draft |
+| 2 | 2026-07-07 | Maestro (fallback re-research) | 0.10 | `9087342c` | [pay](https://basescan.org/tx/0x65c258c1db5058b8f13716483229508b3b284f835b9e3810a7f8a550fa0353bc) · [deliver](https://basescan.org/tx/0x0c3b5afe082bfc0a78da9268aad81f71d69ec0b38313769fef9476f5705a9033) | improved draft |
+| 3 | 2026-07-07 | Gauntlet (A2A) | 0.10 | `2b7a8c3b` | [pay](https://basescan.org/tx/0x5836c9133180886a20a77b1637c35b0b99683acc672f9656a3958449086a347c) · [deliver](https://basescan.org/tx/0xed8a1a803b264b206ce61a1072e157f5fa148eed86b668da2c433043dd3ebd92) | sourced draft |
 
-> Order IDs + pay tx are in the provider logs and the CROO dashboard. Delete this note once populated.
+> Worker was also the **target** of Gauntlet's 7-probe certification (order `725c33bd`) — its adversarial-input probes are expected-reject results, not failures.
 
 ## 🏗️ Architecture & Tech Stack
 
