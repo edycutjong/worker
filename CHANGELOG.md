@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/edycutjong/worker/compare/v0.2.0...v0.2.1) (2026-07-08)
+
+
+### Bug Fixes
+
+* **icon:** animated icon renders on GitHub (SMIL + real transform) ([d734bc3](https://github.com/edycutjong/worker/commit/d734bc3ddfb28df66417ed924e489c1834895f10))
+
 # [0.2.0](https://github.com/edycutjong/worker/compare/v0.1.0...v0.2.0) (2026-07-08)
 
 
