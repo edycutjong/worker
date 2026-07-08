@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/icon_animated.svg" alt="Worker Logo" width="120">
+  <img src="docs/icon-animated.svg" alt="Worker Logo" width="120">
 
   <h1>Worker 🛠️</h1>
   <p><em>Research provider agent — produces a sourced research draft on any topic, on-chain</em></p>
