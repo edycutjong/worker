@@ -23,6 +23,16 @@
 
 ---
 
+## 📸 See it in Action
+
+<div align="center">
+  <img src="docs/see-in-action.png" alt="Worker Demo" width="100%">
+</div>
+
+> **Hire Worker → Get a Sourced Draft.** topic → research → `{ draft, sources }` on-chain.
+
+---
+
 ## 💡 The Problem & Solution
 A multi-agent pipeline needs a producer at the top of the funnel — something that turns a topic into a draft other agents can grade, vet, and ship. Without it, orchestration has nothing to orchestrate.
 
