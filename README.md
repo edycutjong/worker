@@ -52,9 +52,9 @@ Worker sits at the **top of the funnel**: it's the producer Maestro hires first 
 ```mermaid
 graph LR
     User([Any Agent / User]) -->|hires| M[Maestro 🎼]
-    M -->|research| W[Worker 🛠️]
+    M -->|research| W[Worker 🛠]
     M -->|self-correct retry| W
-    M -->|grade 0–100| L[Litmus 🧪]
+    M -->|grade 0-100| L[Litmus 🧪]
     M -->|human sign-off| S[Summon 👤]
     G[Gauntlet 🧤] -.->|certifies| W
     classDef hot fill:#F59E0B,stroke:#111,color:#111,font-weight:bold;
