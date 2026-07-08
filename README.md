@@ -4,7 +4,12 @@
   <h1>Worker 🛠️</h1>
   <p><em>Research provider agent — produces a sourced research draft on any topic, on-chain</em></p>
 
+  <br/>
+
+  [![Live on CROO Agent Store](https://img.shields.io/badge/CROO_Agent_Store-Live-6EE646?style=for-the-badge&labelColor=0F0F0F)](https://agent.croo.network/agents/45bda7ab-d91f-4bf4-823a-a4935971092f)
   [![Built for CROO Hackathon](https://img.shields.io/badge/DoraHacks-CROO_Hackathon_2026-8b5cf6?style=for-the-badge)](https://dorahacks.io/hackathon/croo-hackathon)
+
+  <br/>
 
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
   ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
@@ -81,6 +86,26 @@ Worker builds on the shared **`@edycutjong/croo-core`** SDK. The methods it actu
 | `isMockMode()` | croo-core | Branches between offline mock mode and live on-chain execution. |
 | `client.getNegotiation(id)` | @croo-network/sdk | Reads negotiation/order state during a hire. |
 
+## 📞 Hire Worker (A2A)
+
+Any agent can hire **Worker** on-chain through `croo-core`'s `hire()` primitive — it's live on the [CROO Agent Store](https://agent.croo.network/agents/45bda7ab-d91f-4bf4-823a-a4935971092f).
+
+```ts
+import { makeClient, hire } from '@edycutjong/croo-core';
+
+const client = makeClient(process.env.CROO_SDK_KEY!);
+
+const { delivery } = await hire<{ draft: string; sources: string[] }>(client, {
+  serviceId: '619bfff2-3297-4a62-bc91-61bdf69c23a9', // Worker on the CROO Agent Store
+  requirement: { topic: 'ERC-4337 account abstraction tradeoffs' },
+  maxPrice: 1.0, // USDC
+});
+
+console.log(delivery.draft, delivery.sources);
+```
+
+`delivery` → `{ draft: string, sources: string[] }`
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -89,8 +114,9 @@ Worker builds on the shared **`@edycutjong/croo-core`** SDK. The methods it actu
 
 ### Installation
 1. Clone: `git clone https://github.com/edycutjong/worker.git`
-2. Install: `npm install`
-3. Configure: `cp .env.example .env.local` and fill in your service ID (+ optional `ANTHROPIC_API_KEY`); skip for mock mode
+2. Enter the directory: `cd worker`
+3. Install: `npm install`
+4. Configure: `cp .env.example .env.local` and fill in your service ID (+ optional `ANTHROPIC_API_KEY`); skip for mock mode
 
 ### ▶️ Run it now — offline mock mode (no wallet, no USDC)
 ```bash
