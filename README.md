@@ -4,6 +4,8 @@
   <h1>Worker 🛠️</h1>
   <p><em>Research provider agent — produces a sourced research draft on any topic, on-chain</em></p>
 
+  <img src="docs/readme-hero-animated.svg" alt="Worker — Turns any topic into a sourced, on-chain research draft." width="100%">
+
   <br/>
 
   [![Live on CROO Agent Store](https://img.shields.io/badge/CROO_Agent_Store-Live-6EE646?style=for-the-badge&labelColor=0F0F0F)](https://agent.croo.network/agents/45bda7ab-d91f-4bf4-823a-a4935971092f)
