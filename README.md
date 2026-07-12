@@ -10,7 +10,7 @@
 
   [![Live on CROO Agent Store](https://img.shields.io/badge/CROO_Agent_Store-Live-6EE646?style=for-the-badge&labelColor=0F0F0F)](https://agent.croo.network/agents/45bda7ab-d91f-4bf4-823a-a4935971092f)
   [![Live Pitch Page](https://img.shields.io/badge/Live_Pitch-View-EC4899?style=for-the-badge&labelColor=0F0F0F)](https://edycutjong.github.io/worker/)
-  [![Built for CROO Hackathon](https://img.shields.io/badge/DoraHacks-CROO_Hackathon_2026-8b5cf6?style=for-the-badge)](https://dorahacks.io/hackathon/croo-hackathon)
+  [![DoraHacks BUIDL](https://img.shields.io/badge/DoraHacks-BUIDL_%2347030-8b5cf6?style=for-the-badge&labelColor=0F0F0F)](https://dorahacks.io/buidl/47030)
 
   <br/>
 
