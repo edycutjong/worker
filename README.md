@@ -78,7 +78,7 @@ Real CAP research orders Worker fulfilled as a **provider**.
 | 2 | 2026-07-07 | Maestro (fallback re-research) | 0.10 | `9087342c` | [pay](https://basescan.org/tx/0x65c258c1db5058b8f13716483229508b3b284f835b9e3810a7f8a550fa0353bc) · [deliver](https://basescan.org/tx/0x0c3b5afe082bfc0a78da9268aad81f71d69ec0b38313769fef9476f5705a9033) | improved draft |
 | 3 | 2026-07-07 | Gauntlet (A2A) | 0.10 | `2b7a8c3b` | [pay](https://basescan.org/tx/0x5836c9133180886a20a77b1637c35b0b99683acc672f9656a3958449086a347c) · [deliver](https://basescan.org/tx/0xed8a1a803b264b206ce61a1072e157f5fa148eed86b668da2c433043dd3ebd92) | sourced draft |
 
-> Worker was also the **target** of Gauntlet's 7-probe certification (order `725c33bd`) — its adversarial-input probes are expected-reject results, not failures.
+> Worker was also the **target** of Gauntlet's 9-probe certification (order `725c33bd`) — its adversarial-input probes are expected-reject results, not failures.
 
 ## 🏗️ Architecture & Tech Stack
 
