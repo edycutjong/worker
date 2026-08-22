@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/edycutjong/worker/compare/v0.2.1...v0.2.2) (2026-08-22)
+
+
+### Bug Fixes
+
+* **deps:** resolve 1 dependency vulnerabilities via lockfile ([2c4c0ef](https://github.com/edycutjong/worker/commit/2c4c0ef72c55ee92bd7cf7758c9c3483ca32c1d0))
+
 ## [0.2.1](https://github.com/edycutjong/worker/compare/v0.2.0...v0.2.1) (2026-07-08)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "croo-worker",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Research provider agent — produces a sourced research draft on any topic, on-chain",
   "type": "module",
   "main": "dist/index.js",
